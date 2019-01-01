@@ -5,16 +5,9 @@ _Scrape public posts from any group or user into a .csv file without needing to 
 ____
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-### How to
-
-
-
-1. `collect.py` collects all recent posts from a FB page and saves it into a file.
-2. `bot.py`takes the collected text corpus and generates a 3-gram language model. This model is then used to generate posts that should immitate the style of the collected posts.
-
 ### How to use it?
 
-Firstly, you have selenium >= 3.141.0 and FireFox installed.
+Firstly, make sure you have selenium >= 3.141.0 and FireFox installed.
 
 Use `scraper.py` to collect the data. 
 ```
