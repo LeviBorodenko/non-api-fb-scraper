@@ -85,7 +85,7 @@ class Collector(object):
                 # Creating post text entry
                 text = ""
                 text_elements = post.find_elements_by_css_selector(
-                    "[data-ad-preview='message'] p")
+                    "p")
                 for p in text_elements:
                     text += self.strip(p.text)
                 analysis.append(text)
