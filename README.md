@@ -23,6 +23,6 @@ arguments:
                         How many recent posts you want to gather in
                         multiples of (roughly) 8.
 ```
-Example: ```python scrape.py --pages DonaldTrump senatorsanders -d 20```
+Example: ```python scraper.py --pages DonaldTrump senatorsanders -d 20```
 ____
 The output is `posts.csv` inside the script folder.
